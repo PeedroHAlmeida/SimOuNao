@@ -1,0 +1,66 @@
+body{
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 30px;
+    color: #cb07dd;
+}
+
+#no:hover{
+    background-color: #191919;
+}
+
+a{
+    width: 50px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+a:hover {
+    color: #cb07dd; /* Nova cor do texto ao passar o mouse */
+    background-color: #a8a8a8;
+    transform: scale(1.1); /* Aumentar um pouco o tamanho do texto */
+    font-size: 21px;
+}
+
+*.box{
+    font-size: 20px;
+    color: white;
+    height: 550px;
+    width: auto;
+    border-radius: none;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+/*button{
+    height: 30px;
+    width: 50px;
+    background: rgb(25, 16, 150);
+    border-radius: 5px;
+    color: rgb(255, 0, 255);
+    font-weight: 600;
+}*/
