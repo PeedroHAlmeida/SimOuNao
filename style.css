@@ -56,6 +56,15 @@ a:hover {
     width: 150px;
 }
 
+@media (max-width: 600px) {
+    /* Seus estilos para telas pequenas aqui */
+}
+
+/* Estilos para telas maiores que 600px */
+@media (min-width: 601px) {
+    /* Seus estilos para telas maiores aqui */
+}
+
 /*button{
     height: 30px;
     width: 50px;
