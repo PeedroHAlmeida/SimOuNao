@@ -34,9 +34,9 @@ a{
 }
 
 a:hover {
-    color: #cb07dd; /* Nova cor do texto ao passar o mouse */
+    color: #cb07dd;
     background-color: #a8a8a8;
-    transform: scale(1.1); /* Aumentar um pouco o tamanho do texto */
+    transform: scale(1.1);
     font-size: 21px;
 }
 
