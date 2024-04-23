@@ -24,6 +24,12 @@ h1{
         1px 1px 0 #000;    /* Sombra para criar contorno preto (sudeste) */
 }
 
+@media only screen and (max-width: 1000px) {
+    .text-outline {
+        font-size: 23px; /* Tamanho menor para dispositivos móveis */
+    }
+}
+
 #no:hover{
     background-color: #191919;
 }
